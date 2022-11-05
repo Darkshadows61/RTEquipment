@@ -2,6 +2,14 @@
     <div>
       <Search v-on:search-text='search-text'/>
         <Oxygen v-for="oxygen in oxygens" :key="oxygen.id" :id="oxygen.id" :oxygen="oxygen.oxygen" />
+      <section>
+        <ul>
+          <li><nuxt-link to='/invasive/mechvent'>Mechanical Ventilation</nuxt-link></li>
+          <li><nuxt-link to='/invasive/trach'>Tracheostomy</nuxt-link></li>
+          <li><nuxt-link to='/'></nuxt-link></li>
+          <li><nuxt-link to='/'></nuxt-link></li>
+        </ul>
+      </section>
     </div>
 </template>
 
@@ -21,12 +29,12 @@ export default {
   },
   head() {
     return {
-      title: 'All About RT Oxygen Equipment',
+      title: 'Invasive Equipment',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Landing page for eqiupment'
+          content: 'Invasive eqiupment'
         }
       ]
     }

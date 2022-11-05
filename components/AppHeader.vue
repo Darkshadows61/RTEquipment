@@ -12,7 +12,7 @@
                 <nuxt-link to='/oxygen'>Oxygen</nuxt-link>
             </li>
             <li>
-                <nuxt-link to='/cpap'>CPAP/BiPAP</nuxt-link>
+                <nuxt-link to='/noninvasive'>CPAP/BiPAP</nuxt-link>
             </li>
             <li>
                 <nuxt-link to='/invasive'>Invasive</nuxt-link>

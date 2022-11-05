@@ -1,6 +1,18 @@
 <template>
   <div>
     <h2>Welcome to the best place to learn about different Respiratory Therapy Equipment</h2>
+    <h3>Please click on a section below to learn more about each area of therapy</h3>
+    <ul>
+            <li>
+                <nuxt-link to='/oxygen'>Oxygen</nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to='/noninvasive'>CPAP/BiPAP</nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to='/invasive'>Invasive</nuxt-link>
+            </li>
+        </ul>
   </div>
 </template>
 
