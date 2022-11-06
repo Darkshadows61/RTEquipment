@@ -2,7 +2,10 @@
     <div>
         <nuxt-link to="/invasive">Back</nuxt-link>
         <h1>Tracheostomy</h1>
-        <p>This is an app that displays common Respiratory Equipment</p>
+        <ul>
+            <li> An incision in the windpipe made to relieve an obstruction to breathing. </li>
+        </ul>
+        <p class="brand"> Brand: Westmed</p>
         <img src="/images/trach.jpg">
     </div>
 </template>

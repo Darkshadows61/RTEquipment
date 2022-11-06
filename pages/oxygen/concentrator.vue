@@ -2,7 +2,10 @@
     <div>
         <nuxt-link to="/oxygen">Back</nuxt-link>
         <h1>Oxygen Concentrators</h1>
-        <p>This is an app that displays common Respiratory Equipment</p>
+        <ul>
+            <li> Oxygen concentrators take in air from the room and filter out nitrogen. The process provides the higher amounts of oxygen needed for oxygen therapy. Concentrators may be large and stationary or small and portable </li>
+        </ul>
+        <p class='brand'> Brand: Philips Respironics</p>
         <img src="/images/concentrator.jpg">
     </div>
 </template>

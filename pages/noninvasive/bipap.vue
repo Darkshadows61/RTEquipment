@@ -2,7 +2,13 @@
     <div>
         <nuxt-link to="/noninvasive">Back</nuxt-link>
         <h1>BiPAP</h1>
-        <p>This is an app that displays common Respiratory Equipment</p>
+        <ul>
+            <li> Bi-Level Positive Airway Pressure </li>
+            <li> Alternative to invaisve procedures</li>
+            <li> Supports HFNC and Full Face Masks </li>
+            <li> Delivers up to 40L and 100% FiO2. </li>
+        </ul>
+        <p class="brand"> Brand: Philips Respironics</p>
         <img src="/images/bipap.jpg">
     </div>
 </template>

@@ -2,7 +2,12 @@
     <div>
         <nuxt-link to="/oxygen">Back</nuxt-link>
         <h1>Portable Oxygen Cylinders</h1>
-        <p>This is an app that displays common Respiratory Equipment</p>
+        <ul>
+            <li> Concentional portable compressed Oxygen tank </li>
+            <li> Limited to 1-6L</li>
+            <li> Carrying case sold seperately </li>
+        </ul>
+        <p class="brand"> Brand: Praxair</p>
         <img src="/images/portable.jpg">
     </div>
 </template>
