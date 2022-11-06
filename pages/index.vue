@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>Welcome to the best place to learn about different Respiratory Therapy Equipment</h2>
-    <h3>Please click on a section below to learn more about each area of therapy</h3>
+    <h2>Welcome to the best place to learn about different Respiratory Care Equipment</h2>
+    <p>Please click on a section below to learn more about each area of therapy</p>
     <ul>
             <li>
                 <nuxt-link to='/oxygen'>Oxygen</nuxt-link>

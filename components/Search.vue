@@ -1,7 +1,7 @@
 <template>
     <div>
         <form @sumbit.prevent="onSubmit">
-            <input type="text" v-model="text" placeholder="Search...">
+            <input type="text" v-model="text" placeholder="Search Equipment...">
             <input type="submit" value="Search">
         </form>
     </div>
@@ -9,15 +9,16 @@
 
 <script>
 export default {
-    name: "Search",
+    name: "SearchEquipment",
     data(){
         return {
             text: ''
         }
-    },methods: {
+    },
+    methods: {
         onSumbit() {
             this.$emit('search-text', this.text);
-            this.text="";
+            this.text = "";
         }
     }
 }

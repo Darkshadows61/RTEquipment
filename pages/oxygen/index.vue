@@ -1,7 +1,6 @@
 <template>
     <div>
-      <Search v-on:search-text='search-text'/>
-        <Oxygen v-for="oxygen in oxygens" :key="oxygen.id" :id="oxygen.id" :oxygen="oxygen.oxygen" />
+      <Search v-on:search-text="searchText"/>
       <section>
         <ul>
           <li><nuxt-link to='/oxygen/nasalcannula'>Nasal Cannula</nuxt-link></li>
@@ -19,17 +18,30 @@
 </template>
 
 <script>
-import Oxygen from '../../components/Oxygen';
 import Search from "../../components/Search";
 
 export default {
   components: {
-    Oxygen,
     Search
   },
   methods: {
-    async searchText(text){
-      
+    async searchText(){
+      const config = {
+        headers: {
+          Accept: "application/json"
+        }
+      };
+
+      try {
+        const res = await axios.get(
+          `localhost:3000/oxygen/${text}`,
+          config
+        );
+
+        this.oxygen = res.data.results;
+      } catch (err) {
+        console.log(err)
+      }
     }
   },
   head() {

@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Crypto Hash Error Fix
+export NODE_OPTIONS=--openssl-legacy-provider

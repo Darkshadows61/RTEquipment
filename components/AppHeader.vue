@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <h1 class="title">RT Equipment</h1>
+        <h1 class="title">Respiratory Care Equipment</h1>
         <ul>
             <li>
                 <nuxt-link to='/'>Home</nuxt-link>
