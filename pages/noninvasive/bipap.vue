@@ -3,7 +3,7 @@
         <nuxt-link to="/noninvasive">Back</nuxt-link>
         <h1>BiPAP</h1>
         <p>This is an app that displays common Respiratory Equipment</p>
-        <img src="#">
+        <img src="/images/bipap.jpg">
     </div>
 </template>
 

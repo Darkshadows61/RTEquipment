@@ -3,7 +3,7 @@
         <nuxt-link to="/oxygen">Back</nuxt-link>
         <h1>Bag Valve Mask</h1>
         <p>This is an app that displays common Respiratory Equipment</p>
-        <img src="#">
+        <img src="/images/bvm.jpg">
     </div>
 </template>
 

@@ -2,8 +2,14 @@
     <div>
         <nuxt-link to="/oxygen">Back</nuxt-link>
         <h1>Nasal Cannula</h1>
-        <p>This is an app that displays common Respiratory Equipment</p>
-        <img src="#">
+        <ul>
+            <li> Used for low-flow oxygen delivery via two prongs inserted into the nose </li>
+            <li> Limited to 1-6L </li>
+            <li> Features nonflred tips with adjustable tubing </li>
+            <li> Optional soft padding for ears </li>
+        </ul>
+        <p class="brand"> Brand: Salter Labs</p>
+        <img class="device" src="/images/nc.jpg">
     </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
     <div>
         <nuxt-link to="/noninvasive">Back</nuxt-link>
-        <h1>High Flow Nasal Cannula</h1>
+        <h1>Airvo 2</h1>
         <p>This is an app that displays common Respiratory Equipment</p>
-        <img src="#">
+        <img src="/images/airvo.jpg">
     </div>
 </template>
 

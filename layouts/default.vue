@@ -38,6 +38,14 @@ ul {
   list-style: none;
 }
 
+.device{
+  max-width: 800px;
+}
+
+.brand{
+  font-size:larger;
+}
+
 .container{
   max-width: 1440px;
   margin: 2rem auto;

@@ -3,7 +3,7 @@
         <nuxt-link to="/oxygen">Back</nuxt-link>
         <h1>Non Rebreather</h1>
         <p>This is an app that displays common Respiratory Equipment</p>
-        <img src="#">
+        <img src="/images/nrb.jpg">
     </div>
 </template>
 
