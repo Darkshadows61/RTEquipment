@@ -17,6 +17,9 @@
             <li>
                 <nuxt-link to='/invasive'>Invasive</nuxt-link>
             </li>
+            <li>
+                <nuxt-link to='/contact'>Contact</nuxt-link>
+            </li>
         </ul>
     </header>
 </template>
